@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  background: #6441a5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2a0845, #6441a5);
+  background: linear-gradient(to right, #2a0845, #6441a5);
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+input {
+  width: 300px;
+  height: 36px;
+  padding-inline: 8px;
+  align-items: center;
+  border: 1px solid #898073;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #6441a5;
+  color: white;
+  padding-inline: 12px;
+  padding-block: 6px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+button:hover{
+    background-color: #7551b9;
+}
