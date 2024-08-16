@@ -1,9 +1,3 @@
 [build]
   command = "cd frontend && npm install && npm run build"
   publish = "frontend/dist"
-
-[build.environment]
-  NODE_VERSION = "18.20.4"
-
-[context.production.environment]
-  NODE_ENV = "production"
